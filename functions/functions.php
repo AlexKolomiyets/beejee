@@ -90,5 +90,5 @@ function pagination($page, $pages_count){
     }
     
     // формируем вывод навигации
-    echo "<ul class='pagination'>" .$back.$page2left.$page1left."<li class='act'><a>".$page."</a></li>".$page1right.$page2right.$forward. "</ul>";
+    echo "<ul class='pagination'>" .$back.$page2left.$page1left."<li class='active'><a>".$page."</a></li>".$page1right.$page2right.$forward. "</ul>";
 }
